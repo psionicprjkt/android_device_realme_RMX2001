@@ -9,11 +9,6 @@ on init
     # We only need it to be overridden before things are mounted
     mount none /system/etc/fstab.mt6785 /vendor/etc/fstab.mt6785 bind
 
-#on charger
-    # Turn backlight on and switch to backlight trigger
-    #write /sys/class/leds/lcd-backlight/brightness "1000"
-    #write /sys/class/leds/lcd-backlight/trigger "backlight"
-
 on post-fs
     # Unmount the overridden fstab because the SELinux label is incorrect
     # and some MTK daemons can crash because of that
@@ -40,8 +35,14 @@ on property:sys.boot_completed=1
     write /proc/touchpanel/oppo_tp_limit_enable 0
     write /proc/touchpanel/oppo_tp_direction 1
 
+on property:persist.sys.dt2w=0
+    write /proc/touchpanel/double_tap_enable 0
+
+on property:persist.sys.dt2w=1
+    write /proc/touchpanel/double_tap_enable 1
+
 on boot
-    #VideoCodec
+    # VideoCodec
     chmod 0666 /dev/video0
     chmod 0666 /dev/video1
 

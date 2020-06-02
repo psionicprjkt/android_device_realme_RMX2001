@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     devicesettings
 
+# DT2W
+PRODUCT_PACKAGES += \
+    DT2W-Service-Wasabi
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
