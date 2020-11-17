@@ -26,10 +26,6 @@
     <string name="refresh_rate_warning">Using forced 90Hz will impact battery life significantly</string>
     <string name="fps_info_title">FPS overlay</string>
     <string name="fps_info_summary">Show overlay with with current frames per second</string>
-    <!-- srgb mode -->
-    <string name="srgb_mode_summary">sRGB mode for simpler colour display</string>
-    <string name="srgb_mode_title">sRGB mode</string>
-    <string name="tile_srgb_mode">sRGB</string>
     <!-- otg mode -->
     <string name="otg_mode_summary">Enable USB-OTG power supply for external headphones and flash drives</string>
     <string name="otg_mode_title">Enable USB-OTG</string>
