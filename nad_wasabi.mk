@@ -21,17 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from wasabi device makefile
 $(call inherit-product, device/realme/wasabi/device.mk)
 
-# Inherit some common Evolution X stuff.
-CUSTOM_BUILD_TYPE := OFFICIAL
+# Inherit some common NusantaraProject stuff.
+TARGET_USES_BLUR := true
+NAD_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_WIFI_EXT := true
-EVO_MAINTAINER := TheMalachite
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_wasabi
+PRODUCT_NAME := nad_wasabi
 PRODUCT_DEVICE := wasabi
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := G90T Series
