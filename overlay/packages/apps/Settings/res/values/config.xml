@@ -24,4 +24,7 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
+    <!-- ROM Maintainer strings -->
+    <string name="maintainer_name">officialputuid</string> <!-- Nusantara Project -->
+
 </resources>
