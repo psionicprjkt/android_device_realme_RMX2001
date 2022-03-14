@@ -39,3 +39,7 @@ on boot
     #VideoCodec
     chmod 0666 /dev/video0
     chmod 0666 /dev/video1
+
+# Disable AOSP RIL if MTK RIL is up
+on property:vendor.ril.mtk=1
+    stop vendor.ril-daemon
