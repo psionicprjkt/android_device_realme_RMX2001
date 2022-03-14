@@ -32,6 +32,9 @@ on post-fs-data
 on property:sys.boot_completed=1
     setprop vendor.oppo.biometrics.fingerprint.boot_completed 1
 
+    # ZRAM
+    swapon_all /vendor/fstab.enableswap
+
 on boot
     #VideoCodec
     chmod 0666 /dev/video0
