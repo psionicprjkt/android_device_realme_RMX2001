@@ -10,6 +10,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.audio.silent=0
 
 # Display
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.lcd_density=420
+
+# Display
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.opengles.version=196610 \
     ro.zygote.preload.enable=0 \
