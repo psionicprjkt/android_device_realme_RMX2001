@@ -123,7 +123,9 @@ PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+PRODUCT_SOONG_NAMESPACES +=  \
+    $(DEVICE_PATH)  \
+    packages/apps/Bluetooth
 
 # Telephony Jars
 PRODUCT_BOOT_JARS += \
