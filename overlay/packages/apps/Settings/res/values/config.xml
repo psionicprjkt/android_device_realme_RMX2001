@@ -27,4 +27,8 @@
     <!-- ROM Maintainer strings -->
     <string name="maintainer_name">officialputuid</string> <!-- Nusantara Project -->
 
+    <!-- Battery Health --> 
+    <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full</string> 
+    <string name="config_batCurCap">/sys/class/power_supply/battery/charge_counter</string>
+    <bool name="config_supportBatteryHealth">true</bool>
 </resources>
