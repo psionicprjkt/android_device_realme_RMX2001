@@ -2,6 +2,11 @@
 lib64/libaptX_encoder.so:product/lib64/libaptX_encoder.so
 lib64/libaptXHD_encoder.so:product/lib64/libaptXHD_encoder.so
 
+# EngineerMode
+-priv-app/EngineerMode/EngineerMode.apk
+lib/libem_support_jni.so
+lib64/libem_support_jni.so
+
 # Firmware
 etc/firmware/hx_criteria.csv
 
