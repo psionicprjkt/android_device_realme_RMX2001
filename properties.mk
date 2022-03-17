@@ -14,11 +14,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.bionic.cpu_variant=cortex-a76 \
     ro.bionic.2nd_cpu_variant=cortex-a76
 
-# Blurs
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.sf.blurs_are_expensive=1 \
-    ro.surface_flinger.supports_background_blur=1
-
 # Dalvik
 PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.isa.arm.variant=cortex-a76 \
