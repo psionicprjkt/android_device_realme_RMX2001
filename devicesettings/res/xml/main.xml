@@ -53,6 +53,7 @@
 
         <SwitchPreference
             android:key="otg"
+            android:icon="@drawable/ic_usb_otg_icon"
             android:summary="@string/otg_mode_summary"
             android:title="@string/otg_mode_title" />
     </PreferenceCategory>
