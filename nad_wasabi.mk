@@ -20,9 +20,9 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := nad_wasabi
 PRODUCT_DEVICE := wasabi
-PRODUCT_BRAND := Realme
-PRODUCT_MODEL := G90T Series
-PRODUCT_MANUFACTURER := Realme
+PRODUCT_BRAND := realme
+PRODUCT_MODEL := wasabi
+PRODUCT_MANUFACTURER := realme
 
 # Build info
 BUILD_FINGERPRINT := "realme/RMX2001/RMX2001L1:10/QP1A.190711.020/1594211000:user/release-keys"

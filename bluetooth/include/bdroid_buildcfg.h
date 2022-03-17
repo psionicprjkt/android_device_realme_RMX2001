@@ -21,7 +21,7 @@
 
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
-#define BTM_DEF_LOCAL_NAME   "Realme G90T Series"
+#define BTM_DEF_LOCAL_NAME   "realme wasabi"
 // Disables read remote device feature
 #define BTM_WBS_INCLUDED TRUE
 #define BTIF_HF_WBS_PREFERRED TRUE
