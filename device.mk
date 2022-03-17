@@ -86,7 +86,6 @@ PRODUCT_PACKAGES += \
     
 # Init
 PRODUCT_PACKAGES += \
-    init.ago.rc \
     init.devicesetting.rc \
     init.mt6785.rc \
     fstab.enableswap \
