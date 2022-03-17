@@ -55,4 +55,13 @@
             android:summary="@string/otg_mode_summary"
             android:title="@string/otg_mode_title" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Other">
+
+        <Preference
+            android:icon="@drawable/ic_other_info_icon"
+            android:title="@string/other_info_title"
+            android:summary="@string/other_info_summary" />
+    </PreferenceCategory>
 </PreferenceScreen>

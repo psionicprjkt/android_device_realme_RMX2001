@@ -34,4 +34,7 @@
     <string name="game_mode_summary">Boost Touch Sampling Rate</string>
     <string name="game_mode_title">Game mode</string>
     <string name="tile_game_mode">game mode</string>
+    <!-- other info -->
+    <string name="other_info_title">Other Information</string>
+    <string name="other_info_summary">Build by psionicprjkt.\nI Putu Jaya Adi Pranata (officialputuid).</string>
 </resources>
