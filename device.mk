@@ -18,6 +18,10 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # Inherit vendor
 $(call inherit-product, vendor/realme/wasabi/wasabi-vendor.mk)
 
+# vendor/extra
+WITH_GCAMGO := true
+$(call inherit-product, vendor/extra/config.mk)
+
 # Define Dynamic Partition support
 PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_SHIPPING_API_LEVEL := 29
