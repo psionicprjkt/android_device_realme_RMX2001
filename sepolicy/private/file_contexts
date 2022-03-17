@@ -1,3 +1,6 @@
+# Kernel Power Off Charging (KPOC)
+/system/bin/kpoc_charger u:object_r:kpoc_charger_exec:s0
+
 # Vendor overlay
 /(product|system/product)/vendor_overlay/[0-9]+/overlay(/.*)?               u:object_r:vendor_overlay_file:s0
 
