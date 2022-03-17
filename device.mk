@@ -114,10 +114,6 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
-# Overlays -- replace official
-PRODUCT_PACKAGES += \
-    FrameworkResOverlay
-
 # Recovery
 PRODUCT_PACKAGES += \
     init.recovery.mt6785.rc
