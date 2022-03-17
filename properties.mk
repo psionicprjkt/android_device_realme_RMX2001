@@ -6,8 +6,8 @@
 
 # Audio
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.camera.sound.forced=0 \
-    ro.audio.silent=0
+    ro.audio.silent=0 \
+    ro.camera.sound.forced=0
 
 # Bionic
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -16,8 +16,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Blurs
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.surface_flinger.supports_background_blur=1 \
-    ro.sf.blurs_are_expensive=1
+    ro.sf.blurs_are_expensive=1 \
+    ro.surface_flinger.supports_background_blur=1
 
 # Dalvik
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -37,8 +37,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_app_phase_offset_ns=1500000 \
-    debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
+    debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_phase_offset_ns=1500000 \
     debug.sf.latch_unsignaled=1 \
     ro.surface_flinger.has_HDR_display=true \
@@ -61,16 +61,16 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # OMX
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    debug.stagefright.ccodec=0 \
     debug.stagefright.omx_default_rank.sw-audio=1 \
-    debug.stagefright.omx_default_rank=0 \
-    debug.stagefright.ccodec=0
+    debug.stagefright.omx_default_rank=0
 
 # Perf
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.kernel.zio=38,108,105,16 \
-    ro.mtk_perf_simple_start_win=1 \
     ro.mtk_perf_fast_start_win=1 \
-    ro.mtk_perf_response_time=1
+    ro.mtk_perf_response_time=1 \
+    ro.mtk_perf_simple_start_win=1
 
 # Privapp permissions whitelisting
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -78,28 +78,28 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # RIL
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    vendor.rild.libpath=mtk-ril.so \
-    vendor.rild.libargs=-d /dev/ttyC0
+    vendor.rild.libargs=-d /dev/ttyC0 \
+    vendor.rild.libpath=mtk-ril.so
 
 # USB
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.sys.usb.mtp.whql.enable=0 \
-    sys.ipo.pwrdncap=2 \
-    ro.sys.usb.storage.type=mtp \
     ro.sys.usb.bicr=no \
-    ro.sys.usb.charging.only=yes
+    ro.sys.usb.charging.only=yes \
+    ro.sys.usb.mtp.whql.enable=0 \
+    ro.sys.usb.storage.type=mtp \
+    sys.ipo.pwrdncap=2
 
 # WLAN
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    wifi.interface=wlan0 \
-    ro.mediatek.wlan.wsc=1 \
-    ro.mediatek.wlan.p2p=1 \
     mediatek.wlan.ctia=0 \
-    wifi.tethering.interface=ap0 \
-    wifi.direct.interface=p2p0
+    ro.mediatek.wlan.p2p=1 \
+    ro.mediatek.wlan.wsc=1 \
+    wifi.direct.interface=p2p0 \
+    wifi.interface=wlan0 \
+    wifi.tethering.interface=ap0
 
 # ZRAM
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.zram.mark_idle_delay_mins=60 \
     ro.zram.first_wb_delay_mins=180 \
+    ro.zram.mark_idle_delay_mins=60 \
     ro.zram.periodic_wb_delay_hours=24
