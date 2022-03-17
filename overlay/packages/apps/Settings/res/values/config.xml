@@ -27,6 +27,9 @@
     <!-- ROM Maintainer strings -->
     <string name="maintainer_name">officialputuid</string> <!-- Nusantara Project -->
 
+    <!-- Whether to show min refresh rate in display settings -->
+    <bool name="config_show_min_refresh_rate_switch">true</bool>
+
     <!-- Battery Health --> 
     <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full</string> 
     <string name="config_batCurCap">/sys/class/power_supply/battery/charge_counter</string>
