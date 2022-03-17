@@ -26,4 +26,7 @@
     <!-- the padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">16dp</dimen>
     
+    <!-- Nusantara Android Development -->
+    <dimen name="rounded_corner_content_padding">12dp</dimen>
+    <dimen name="status_bar_extra_padding">0dp</dimen>
 </resources>
