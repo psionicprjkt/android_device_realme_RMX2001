@@ -1,7 +1,0 @@
-allow untrusted_app proc_stat:file { getattr open };
-allow untrusted_app proc_vmstat:file { open };
-allow untrusted_app proc_zoneinfo:file { getattr open read };
-
-allow untrusted_app theme_prop:file { getattr map open };
-
-allow untrusted_app ashmem_device:chr_file { open };

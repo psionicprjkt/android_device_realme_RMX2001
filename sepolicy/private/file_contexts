@@ -1,8 +1,13 @@
-# Kernel Power Off Charging (KPOC)
-/system/bin/kpoc_charger u:object_r:kpoc_charger_exec:s0
+# GPU Labels
+/dev/mali.* u:object_r:gpu_device:s0
+/dev/mtk_disp.* u:object_r:graphics_device:s0
 
 # HALs
+/system/bin/hw/android\.hardware\.light@2\.0-service\.wasabi    u:object_r:mtk_hal_light_exec:s0
 /system/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.wasabi u:object_r:hal_fingerprint_wasabi_exec:s0
+
+# Kernel Power Off Charging (KPOC)
+/system/bin/kpoc_charger u:object_r:kpoc_charger_exec:s0
 
 # Vendor overlay
 /(product|system/product)/vendor_overlay/[0-9]+/etc(/.*)?        u:object_r:vendor_configs_file:s0
