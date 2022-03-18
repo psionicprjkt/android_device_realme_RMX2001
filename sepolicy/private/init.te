@@ -1,5 +1,8 @@
 allow init unlabeled:file { execute execute_no_trans };
 
+# Allow init to write touchpanel nodes
+allow init proc_tp:file rw_file_perms;
+
 # Allow init to mount vendor overlay
 allow init vendor_configs_file:{ dir file } mounton;
 allow init vendor_file:file { execute };
