@@ -63,6 +63,14 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.netflix.bsp_rev=MTK6785-18787-1
 
+# NFC
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.nfc.disPowerSave=1 \
+    persist.sys.nfc.default=on \
+    persist.sys.nfc.aid_overflow=true \
+    ro.product.cuptsm=OPPO|ESE|01|02 \
+    persist.sys.nfc.antenna_area=bottom
+
 # OMX
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     debug.stagefright.ccodec=0 \

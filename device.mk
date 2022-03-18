@@ -108,7 +108,11 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    NfcNci
+    com.android.nfc_extras \
+    com.gsma.services.nfc  \
+    NfcNci \
+    SecureElement \
+    Tag
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
