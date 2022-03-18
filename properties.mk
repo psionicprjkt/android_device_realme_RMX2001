@@ -42,6 +42,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 
+# DRM
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    drm.service.enabled=true \
+    ro.vendor.mtk_widevine_drm_l1_support=1
+
 # Iorap
 PRODUCT_PROPERTY_OVERRIDES += \
    iorapd.perfetto.enable=true \
