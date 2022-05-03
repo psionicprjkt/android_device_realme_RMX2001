@@ -12,7 +12,7 @@
      limitations under the License.
 -->
 <permissions>
-    <privapp-permissions package="org.lineageos.dt2w.Wasabi">
+    <privapp-permissions package="org.lineageos.dt2w.RMX2001">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 </permissions>

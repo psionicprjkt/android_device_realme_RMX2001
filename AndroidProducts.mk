@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_wasabi.mk
+    $(LOCAL_DIR)/nad_RMX2001.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_wasabi-user \
-    nad_wasabi-userdebug \
-    nad_wasabi-eng
+    nad_RMX2001-user \
+    nad_RMX2001-userdebug \
+    nad_RMX2001-eng

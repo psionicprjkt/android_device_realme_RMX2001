@@ -15,10 +15,10 @@
 //
 
 cc_library_static {
-    name: "libinit_wasabi",
+    name: "libinit_RMX2001",
     recovery_available: true,
     srcs: [
-        "init_wasabi.cpp"
+        "init_RMX2001.cpp"
     ],
     include_dirs: [
         "system/core/base/include",

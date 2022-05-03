@@ -1,4 +1,4 @@
-package org.lineageos.dt2w.Wasabi;
+package org.lineageos.dt2w.RMX2001;
 
 import android.app.Service;
 import android.content.ContentResolver;
@@ -13,8 +13,8 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings.Secure;
 
-public class DT2WServiceWasabi extends Service {
-    private static final String TAG = "DT2WServiceWasabi";
+public class DT2WServiceRMX2001 extends Service {
+    private static final String TAG = "DT2WServiceRMX2001";
     private Context mContext;
     private Handler mHandler;
     private CustomSettingsObserver mCustomSettingsObserver;

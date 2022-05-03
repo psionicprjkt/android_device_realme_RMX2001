@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/wasabi
+DEVICE_PATH := device/realme/RMX2001
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX2001,RMX2002,RMX2003,wasabi
+TARGET_OTA_ASSERT_DEVICE := RMX2001,RMX2002,RMX2003
 
 # Architecture
 TARGET_ARCH := arm64
@@ -61,8 +61,8 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_wasabi
-TARGET_RECOVERY_DEVICE_MODULES := libinit_wasabi
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_RMX2001
+TARGET_RECOVERY_DEVICE_MODULES := libinit_RMX2001
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
@@ -147,4 +147,4 @@ SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_VNDK_VERSION := current
 
 # Inherit from the proprietary version
--include vendor/realme/wasabi/BoardConfigVendor.mk
+-include vendor/realme/RMX2001/BoardConfigVendor.mk

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/wasabi
+DEVICE_PATH := device/realme/RMX2001
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
@@ -16,7 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Inherit vendor
-$(call inherit-product, vendor/realme/wasabi/wasabi-vendor.mk)
+$(call inherit-product, vendor/realme/RMX2001/RMX2001-vendor.mk)
 
 # vendor/extra
 WITH_GCAMGO := true
@@ -53,7 +53,7 @@ PRODUCT_PACKAGES += \
 
 # DT2W
 PRODUCT_PACKAGES += \
-    DT2W-Service-Wasabi
+    DT2W-Service-RMX2001
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.wasabi \
+    android.hardware.biometrics.fingerprint@2.1-service.RMX2001 \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
 
 PRODUCT_COPY_FILES += \
@@ -104,7 +104,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.wasabi
+    android.hardware.light@2.0-service.RMX2001
 
 # NFC
 PRODUCT_PACKAGES += \

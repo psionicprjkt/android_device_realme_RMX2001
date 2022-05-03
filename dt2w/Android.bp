@@ -16,7 +16,7 @@
  */
 
 android_app {
-    name: "DT2W-Service-Wasabi",
+    name: "DT2W-Service-RMX2001",
 
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
@@ -30,13 +30,13 @@ android_app {
     },
 
     required: [
-        "privapp-permissions_org.lineageos.dt2w.Wasabi",
+        "privapp-permissions_org.lineageos.dt2w.RMX2001",
     ],
 }
 
 prebuilt_etc {
-    name: "privapp-permissions_org.lineageos.dt2w.Wasabi",
+    name: "privapp-permissions_org.lineageos.dt2w.RMX2001",
     sub_dir: "permissions",
-    src: "privapp-permissions_org.lineageos.dt2w.Wasabi.xml",
+    src: "privapp-permissions_org.lineageos.dt2w.RMX2001.xml",
     filename_from_src: true,
 }
