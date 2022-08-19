@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from RMX2001 device makefile
 $(call inherit-product, device/realme/RMX2001/device.mk)
 
+# Call proprietary blob setup
+$(call inherit-product, vendor/realme/RMX2001/RMX2001-vendor.mk)
+
 # Inherit some common NusantaraProject stuff.
 TARGET_USES_BLUR := true
 NAD_BUILD_TYPE := OFFICIAL
