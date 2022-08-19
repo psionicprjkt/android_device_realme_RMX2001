@@ -1,3 +1,6 @@
+# Bufferfix
+vendor/lib64/libmtkcam_3rdparty.customer.so:product/vendor_overlay/29/lib64/libmtkcam_3rdparty.customer.so
+
 # Camera - from RMX2001_11.B.31
 vendor/lib64/libcameracustom.so:product/vendor_overlay/29/lib64/libcameracustom.so|f43b592672b43ff373b16292f3738dff2b355f3f
 
