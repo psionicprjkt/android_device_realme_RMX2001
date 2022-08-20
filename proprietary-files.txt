@@ -1,3 +1,6 @@
+# Bufferfix
+vendor/lib64/libmtkcam_3rdparty.customer.so:product/vendor_overlay/29/lib64/libmtkcam_3rdparty.customer.so
+
 # Bluetooth (aptX)
 lib64/libaptX_encoder.so:product/lib64/libaptX_encoder.so
 lib64/libaptXHD_encoder.so:product/lib64/libaptXHD_encoder.so
