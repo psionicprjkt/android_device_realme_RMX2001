@@ -1,3 +1,6 @@
+# 64MP Enabler
+vendor/lib64/libmtkcam_metastore.so:product/vendor_overlay/29/lib64/libmtkcam_metastore.so
+
 # Bufferfix
 vendor/lib64/libmtkcam_3rdparty.customer.so:product/vendor_overlay/29/lib64/libmtkcam_3rdparty.customer.so
 
