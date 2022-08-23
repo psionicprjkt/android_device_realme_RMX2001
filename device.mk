@@ -20,6 +20,7 @@ $(call inherit-product, vendor/realme/RMX2001/RMX2001-vendor.mk)
 
 # vendor/extra
 WITH_GCAMGO := true
+WITH_VIABROWSER := true
 $(call inherit-product, vendor/extra/config.mk)
 
 # Define Dynamic Partition support
