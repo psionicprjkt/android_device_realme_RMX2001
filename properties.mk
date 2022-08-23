@@ -53,11 +53,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     drm.service.enabled=true \
     ro.vendor.mtk_widevine_drm_l1_support=1
 
-# Iorap
-PRODUCT_PROPERTY_OVERRIDES += \
-   iorapd.perfetto.enable=true \
-   iorapd.readahead.enable=true
-
 # IMS
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
