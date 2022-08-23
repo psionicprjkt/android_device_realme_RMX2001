@@ -13,6 +13,7 @@ type sysfs_boot_mode, fs_type, sysfs_type;
 type sysfs_fps, sysfs_type, fs_type;
 type sysfs_therm, fs_type, sysfs_type;
 type sysfs_usb_supply, fs_type, sysfs_type;
+type proc_fastchg_fw, fs_type, proc_type;
 
 type debugfs_ion, fs_type, debugfs_type;
 type debugfs_ion_mm_heap, fs_type, debugfs_type;
