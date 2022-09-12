@@ -14,14 +14,15 @@ $(call inherit-product, device/realme/RMX2001/device.mk)
 # Call proprietary blob setup
 $(call inherit-product, vendor/realme/RMX2001/RMX2001-vendor.mk)
 
-# Inherit some common NusantaraProject stuff.
-TARGET_USES_BLUR := true
-NAD_BUILD_TYPE := OFFICIAL
+# Inherit some common keepQASSA stuff.
+# WITH_GAPPS=true
+$(call inherit-product, vendor/qassa/config/common_full_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_RMX2001
+PRODUCT_NAME := qassa_RMX2001
 PRODUCT_DEVICE := RMX2001
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX2001
