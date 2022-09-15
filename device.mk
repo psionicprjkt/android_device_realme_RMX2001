@@ -149,4 +149,5 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 -include $(DEVICE_PATH)/properties.mk
+include $(DEVICE_PATH)/vendor_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
