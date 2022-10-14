@@ -217,7 +217,7 @@
          This flag controls whether the {@link Display#FLAG_SUPPORTS_PROTECTED_BUFFERS}
          flag is set for wifi displays.
     -->
-    <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
+    <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
 
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool name="config_wifi_background_scan_support">true</bool>
@@ -252,7 +252,7 @@
     <bool name="skip_restoring_network_selection">true</bool>
 
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">115.0px</dimen>
+    <dimen name="status_bar_height_portrait">115px</dimen>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
