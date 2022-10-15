@@ -59,7 +59,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Other">
+        android:title="@string/other_title">
 
         <Preference
             android:icon="@drawable/ic_other_info_icon"
